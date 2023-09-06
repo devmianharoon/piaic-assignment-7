@@ -258,3 +258,45 @@ console.log(month == "November");
 //   exerxise 24
 /*More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests. Have at least one True and one False result for each of the following:*/
 // • Tests for equality and inequality with strings
+let myAge = 19;
+// Tests for equality
+console.log("Tests for equality? predict True");
+console.log(myAge == 19);
+// Tests for inequality
+console.log("Tests for inequality? predict False");
+console.log(myAge != 19);
+// Tests using the lower case function
+let studentsLearning = "Yes";
+// true
+console.log("Tests using the upper case 'Yes'? I predict True");
+console.log(studentsLearning == "Yes");
+// false
+console.log("Tests using the lower 'yes'? I predict False");
+console.log(studentsLearning == "yes");
+// • Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+let Number1 = 5;
+let Number2 = 9;
+console.log(Number1 < Number2); //true
+console.log(Number1 > Number2); //fasle
+console.log(Number1 == Number2); //false
+console.log(Number1 != Number2); //true
+console.log(Number1 <= Number2); //true
+console.log(Number1 >= Number2); //false
+// • Tests using "and" and "or" operators
+const x = 5;
+const y = 15;
+const z = 25;
+// and &&
+console.log(x < y && y < z); //true
+console.log(x > y && y < z); //false
+// or ||
+console.log(x > y || y < z); //true
+console.log(x > y || y > z); //false
+// • Test whether an item is in a array
+const color = ["red", "blue", "green"];
+console.log(color.includes("purple")); //false
+console.log(color.includes("blue")); // true
+// • Test whether an item is not in a array
+const fruits = ["banaba", "apple", "orange"];
+console.log(!fruits.includes("kiwi")); //true
+console.log(!fruits.includes("apple")); // false
