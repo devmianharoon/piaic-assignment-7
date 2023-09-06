@@ -425,3 +425,19 @@ else {
     }
 }
 // Remove all of the usernames from your array, and make sure the correct message is printed.
+// exercise 32
+// Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
+// • Make a list of five or more usernames called current_users.
+let currentUsers = ["mian", "umar", "hassan", "essa", "ibrahim"];
+// • Make another list of five usernames called new_users. Make sure one or two of the new usernames are also in the current_users list.
+let newUser = ["ali", "hamza", "wahab", "essa", "ibrahim"];
+// • Loop through the new_users list to see if each new username has already been used. If it has, print a message that the person will need to enter a new username. If a username has not been used, print a message saying that the username is available.
+const currentUsersLower = currentUsers.map(user => user.toLowerCase());
+for (const newUsers of newUser) {
+    if (currentUsersLower.includes(newUsers.toLowerCase())) {
+        console.log(`Sorry, the username '${newUsers}' is already taken. Please choose a different one.`);
+    }
+    else {
+        console.log(`The username '${newUsers}' is available.`);
+    }
+}
