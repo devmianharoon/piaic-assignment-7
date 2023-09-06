@@ -688,4 +688,21 @@ function make_shirt(size:any,message:string) {
     
 }
 
-make_shirt("x","Prision no 804")
+make_shirt("large","Prision no 804")
+
+                                             // exercise 37
+// Large Shirts: Modify the make_shirt() function so that shirts are large by default with a message that reads I love TypeScript. Make a large shirt and a medium shirt with the default message, and a shirt of any size with a different message.
+
+function makeShirt(size:any) {
+if (size===`large`) {
+   console.log("I love TypeScript.");
+    
+} else if    (size===`medium`) {
+    console.log("I love Pakistan.");
+}else if    (size===`small`) {
+    console.log("I love Prision no 804.");} 
+}
+
+makeShirt("large")
+makeShirt("medium")
+makeShirt("small")
