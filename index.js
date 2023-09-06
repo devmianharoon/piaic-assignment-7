@@ -503,3 +503,9 @@ for (const animal of animals) {
 }
 console.log("what these animals have in common. ");
 console.log("these animal could ba a great pet!");
+// exercise 36
+// T-Shirt: Write a function called make_shirt() that accepts a size and the text of a message that should be printed on the shirt. The function should print a sentence summarizing the size of the shirt and the message printed on it. Call the function.
+function make_shirt(size, message) {
+    console.log(`you order ${size} T-shirt and message  you want to print is "${message}"`);
+}
+make_shirt("x", "Prision no 804");
