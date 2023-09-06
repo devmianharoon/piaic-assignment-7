@@ -408,3 +408,20 @@ for (const username of usernames) {
         console.log(`Hello ${username}, thank you for logging in again.`);
     }
 }
+//                               exercise 31
+// No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
+let newUsers = ["awais ", "raza", "admin", "harry", "rizwan"];
+if (newUsers.length === 0) {
+    console.log("We need to find some users!");
+}
+else {
+    for (let newUser of newUsers) {
+        if (newUser === 'admin') {
+            console.log("Hello admin, would you like to see a status report?");
+        }
+        else {
+            console.log(`Hello ${newUser}, thank you for logging in again.`);
+        }
+    }
+}
+// Remove all of the usernames from your array, and make sure the correct message is printed.
