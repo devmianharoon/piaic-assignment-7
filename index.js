@@ -441,3 +441,36 @@ for (const newUsers of newUser) {
         console.log(`The username '${newUsers}' is available.`);
     }
 }
+// exercise 33
+//  Ordinal Numbers: Ordinal numbers indicate their position in a array, such as 1st or 2nd. Most ordinal numbers end in th, except 1, 2, and 3.             
+//  • Store the numbers 1 through 9 in a array.
+let numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let index = 0; index <= numArray.length; index++) {
+    if (index === 1) {
+        console.log(`${index}st`);
+    }
+    else if (index === 2) {
+        console.log(`${index}nd`);
+    }
+    else if (index === 3) {
+        console.log(`${index}nd`);
+    }
+    else if (index === 4) {
+        console.log(`${index}th`);
+    }
+    else if (index === 5) {
+        console.log(`${index}th`);
+    }
+    else if (index === 6) {
+        console.log(`${index}th`);
+    }
+    else if (index === 7) {
+        console.log(`${index}th`);
+    }
+    else if (index === 8) {
+        console.log(`${index}th`);
+    }
+    else if (index === 9) {
+        console.log(`${index}th`);
+    }
+}
