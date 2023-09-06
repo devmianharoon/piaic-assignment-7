@@ -302,7 +302,7 @@ console.log(!fruits.includes("kiwi")); //true
 console.log(!fruits.includes("apple")); // false
 // exercise 25
 /*Alien Colors #1: Imagine an alien was just shot down in a game. Create a variable called alien_color and assign it a value of 'green', 'yellow', or 'red'. */
-var alien_color = ['green', 'yellow', 'red'];
+var alien_color = ["green", "yellow", "red"];
 // • Write an if statement to test whether the alien’s color is green. If it is, print a message that the player just earned 5 points.
 if (alien_color.includes("green")) {
     console.log("You Just Earn 5 Points");
@@ -369,4 +369,30 @@ else if (userAge >= 20 && userAge < 65) {
 }
 else if (userAge >= 65) {
     console.log(" the person is a elder."); //• If the person is age 65 or older, print a message that the person is an elder. 
+}
+//                                 exercise 29
+// Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array.
+// Make an array of your three favorite fruits
+const favorite_fruits = ['banana', 'apple', 'strawberry'];
+// Write five independent if statements to check for certain fruits
+if (favorite_fruits.includes('banana')) {
+    console.log("You really like bananas!");
+}
+if (favorite_fruits.includes('apple')) {
+    console.log("You're a fan of apples!");
+}
+if (favorite_fruits.includes('strawberry')) {
+    console.log("Strawberries are one of your favorites!");
+}
+if (favorite_fruits.includes('orange')) {
+    console.log("You enjoy oranges!");
+}
+else {
+    console.log("Oranges are not in your favorites.");
+}
+if (favorite_fruits.includes('grape')) {
+    console.log("Grapes are among your favorite fruits!");
+}
+else {
+    console.log("Grapes didn't make it to your top three.");
 }
