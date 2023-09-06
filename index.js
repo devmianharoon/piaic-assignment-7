@@ -322,7 +322,7 @@ if (alien_color.includes("green")) {
     console.log("You Just Earn 5 Points for shooting the alien.");
 }
 // • If the alien’s color isn’t green, print a statement that the player just earned 10 points.
-else if (!alien_color.includes("green")) {
+if (!alien_color.includes("green")) {
     console.log("You Just Earn 10 Points for shooting the alien.");
 }
 ;
@@ -332,5 +332,20 @@ if (alien_color.includes("green")) {
 }
 else {
     console.log("You Just Earn 10 Points for shooting the alien.");
+}
+;
+//  exercise 27
+// Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.
+// • If the alien is green, print a message that the player earned 5 points.
+if (alien_color.includes("green")) {
+    console.log("You Just Earn 5 Points ");
+}
+// • If the alien is yellow, print a message that the player earned 10 points.
+else if (alien_color.includes("yellow")) {
+    console.log("You Just Earn 10 Points ");
+}
+// • If the alien is red, print a message that the player earned 15 points.
+else if (alien_color.includes("red")) {
+    console.log("You Just Earn 15 Points ");
 }
 ;
