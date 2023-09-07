@@ -774,3 +774,18 @@ let myMusic3 =makeAlbum("harry","wfffqewf")
 console.log(myMusic);
 console.log(myMusic2);
 console.log(myMusic3);
+
+//                         Exercise 41
+// Magicians: Make a array of magician’s names. Pass the array to a function called show_magicians(), which prints the name of each magician in the array.
+
+const magicianArray:string[]=["Harry ","ALison","Butt","john","Jutt","Mian"]
+
+function show_magicians(megician:string[]) {
+  megician.forEach(element => {
+    console.log(element);
+    
+  });
+};
+
+
+show_magicians(magicianArray)
