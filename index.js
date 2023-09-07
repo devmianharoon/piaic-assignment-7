@@ -583,3 +583,18 @@ function show_magicians(megician) {
 }
 ;
 show_magicians(magicianArray);
+//                                           Exercise 42
+// Great Magicians: Start with a copy of your program from Exercise 39. Write a function called make_great() that modifies the array of magicians by adding the phrase the Great to each magician’s name. Call show_magicians() to see that the list has actually been modified.
+const magician = ["Harry ", "ALison", "Butt", "john", "Jutt", "Mian"];
+function make_great(megician) {
+    megician.forEach(element => {
+        console.log(element);
+    });
+}
+;
+make_great(magician);
+function show_magician(megician) {
+    const greatMagician = magician.map(magician => `the great ${magician}`);
+    return greatMagician;
+}
+console.log(show_magician(magician));
